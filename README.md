@@ -1,7 +1,7 @@
- git status
- vi testfile.txt
- vi second.txt
- git add *
+ git status /n
+ vi testfile.txt  /n
+ vi second.txt  /n
+ git add *   /n
  git commit -m "test for two files2"
  git log
  git reflog
