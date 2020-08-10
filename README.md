@@ -15,12 +15,18 @@
  git log
  git show  555ce8c864f61fcdbc9fd0e08cf36271c6efbfbb
  git push -u origin master
- g
- g
- g
+d
+d
+d
+d
+d
 
- g
- g
- g
- g
+d
+d
+dd
+d
+d
+d
 
+d
+d
