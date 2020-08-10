@@ -1,0 +1,100 @@
+Understanding Virtual Networking on AWS
+
+What Is Virtual Private Cloud
+AWS Reference Model for VPC
+VPC Architecture and Characteristics
+Creating a VPC
+VPC Access Methods
+VPC Configuration
+VPC Peering
+Module Summary
+In-depth VPC Configuration
+Module Introduction
+In-depth VPC Configuration18m
+Module Summary
+Working with Security Groups and NACLs
+Module Introduction
+Layered Security
+Configuring Security Groups
+Understanding NACLs
+Configuring NACLs
+Module Summary
+Understanding and Configuring VPC Access
+Module Introduction
+AWS VPC Access
+AWS Direct Connect
+Configuring VPN
+Understanding VPC Peering
+Configuring VPC Peering
+
+Module Summary
+
+EC2 Instance Types
+Module Introduction
+Understanding EC2 Instance Types
+EC2 Instance Types Walkthrough in the AWS Management Console
+Module Summary
+Working with Elastic Block Storage
+Module Introduction
+Understanding AWS Storage Types
+Increasing IOPS Performance
+Configuring Optimized Instances
+EBS Snapshots and Replication
+Module Introduction1m
+EBS Snapshots Characteristics9m
+Working with Snapshots in the AWS Management Console6m
+
+
+Working with Amazon S3
+Module Introduction1m
+Amazon S3 Characteristics12m
+Working with Amazon S3 via the AWS Management Console16m
+Amazon S3 Website Hosting
+Module Introduction0m
+Static Website Hosting2m
+Configure Amazon S3 Static Website Hosting8m
+
+
+Configuring Elastic Load Balancer (ELB)
+Module Introduction1m
+ELB Characteristics6m
+ELB Deployment Scenarios6m
+Configuring ELB via the AWS Management Console14m
+
+Configuring Auto Scaling
+Module Introduction0m
+Auto Scaling Features5m
+How Auto Scaling Works4m
+Configuring Auto Scaling Part 110m
+Configuring Auto Scaling Part 215m
+
+
+Configuring Route 53
+Module Introduction1m
+Route 53 Characteristics5m
+DNS Record Types15m
+Routing Policies6m
+Configuring Route 53 from the AWS Management Console21m
+
+
+Working with Identity and Access Management (IAM)
+Module Introduction1m
+Introduction to Identity and Access Management (IAM)9m
+Configuring IAM via the AWS Management Console26m
+AWS Security Token Service (STS)6m
+
+Monitoring with Amazon CloudWatch and Trusted Advisor
+Module Introduction1m
+Amazon CloudWatch Characteristics2m
+Configuring CloudWatch from the AWS Management Console16m
+Trusted Advisor
+
+RDS HA and Load Sharing
+Module Introduction
+RDS Characteristics
+Configuring RDS via the AWS Management Console
+
+Understanding Backup Options
+Module Introduction
+EBS Options
+S3 and RDS Backup Options

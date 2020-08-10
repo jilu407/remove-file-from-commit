@@ -1,0 +1,116 @@
+Introduction to Linux and UNIX
+History of UNIX & LINUX
+Basic Concepts of Operating Systems, Kernel, shell and file system structure
+ Installation of Linux
+Different types of Installation Methods
+GUI
+Text
+ Linux System Structure
+Basic concepts of Linux
+Differences between Red Hat Enterprise Linux & CentOS
+Basic bash commands of Linux
+Editors [GUI & CLI]
+Boot Process of Linux
+What is booting and boot process of Linux?
+Init Process or Runlevels
+Software Package Administration
+Description of a Repository
+Difference between RPM and YUM
+Configuration of YUM server
+Installing and deleting software packages
+Querying and updating software packages
+User and Group Administration
+Types of Users in Linux
+Creating and deleting Users and Groups
+Modifying Users profile
+Adding Users into the Groups
+Important system files related to User & Group administration
+Advanced File Permissions
+Importance of Permissions
+Types of Permissions
+User level Permissions
+Group level Permissions
+Setting Access Level Permissions on Users & Groups
+ Disk Partitioning and Mounting File System
+Definition of Partition
+Types of Partitions
+Difference between ext2, ext3 and ext4 file systems
+Creating partitions using fdisk utility
+Formatting partitions using mkfs to create filesystems
+Mounting various filesystems temporarily and permanently
+Logical Volume Management
+What is LVM?
+Conversion of Partition into Physical Volume
+Creating volume groups and logical volumes
+Mounting the logical volume filesystems
+Extend and Reduce the logical volumes.
+Data storage using LVM
+Renaming volume groups and logical volumes
+Removing physical volume, volume group and logical volume
+Backup and Recovery
+Introduction to various types of backup media
+Backup and restoring using tar commands
+Automation of Jobs
+NFS
+Configuring NFS server
+Mounting NFS exports on clients
+ NIS
+Basics of NIS
+Configuring NIS Servers and client
+Creating NIS users
+DNS
+Basics of Internet
+Basics of DNS and BIND 9
+Configuring DNS primary server
+DHCP
+Configuring Linux as DHCP Server
+Configuring various clients for DHCP Server
+Web Server (Apache)
+Basics of Web Service
+Introduction to Apache
+Configuring Apache for main site
+Configuring Apache for multiple sites using IP-based, port based and name-based
+FTP Server
+Basics of File Transfer Protocol.
+Configuring vsftpd for anonymous ftp service.
+Proxy Server (SQUID)
+Basics of proxy services
+Configuring proxy services
+Creating ACL’s for controlling access to internet
+ Samba Server
+Basics of file sharing in Windows
+Configuring Samba service for file sharing with windows systems
+Mail Server Configuration
+Basics of Mail Servers
+Configuring SMTP service using sendmail
+ Log Server
+Importance of logs
+Configuring Syslog Messages
+ Network Connections
+Configuring Physical IP Address
+Configuring Virtual IP Address
+Enabling & Disabling the Network Connections
+Iptables
+ Basics of Shell scripting
+ Troubleshooting Linux
+Recovering the super user password.
+Troubleshooting network related problems.
+MONITORING PROJECTS
+PROJECT 1: OVERSEAS using NAGIOS
+Knowledge Transfer:
+Definition of Monitoring, Benefits and types of Monitoring tool
+Process based concepts on Threshold value, Alerts, Priority levels and Escalation Format
+Roles of Linux Engineer:
+Worked as a Linux Engineer in 24/7 team responsible to maintain servers and provide FCR at any point of time.
+Monitoring/Troubleshooting the following alerts/issues.
+CPU
+Load Average
+Memory Usage
+Network Issues
+Disk Space issues
+Service Status
+Website Blips
+Perform the TRIAGE with regards to the alerts by following SOP and find the RCA.
+Escalating the alerts to level-2 team incase unable to provide resolution.
+Creating a production ticket for each and every alert.
+Open trouble tickets with the 3rd party service provider for any network outages, site blips, database issues & Disk failed issues.

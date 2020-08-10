@@ -1,0 +1,35 @@
+FROM python:3.6
+MAINTAINER AS DB Support (AS_DB_SUPPORT@apple.com)
+
+RUN mkdir aoscli
+copy . /aoscli/
+
+# INSTALL TOOLS
+RUN apt-get update \
+    && apt-get -y install unzip \
+    && apt-get -y install libaio-dev \
+    && mkdir -p /opt/data/api
+
+RUN echo "deb http://security.debian.org/debian-security jessie/updates main" >> /etc/apt/sources.list
+RUN apt-get update -y && apt-get install -y apt-utils \
+    && apt-get install -y whiptail \
+    && apt-get install -y libssl1.0.0 libssl-dev --reinstall \
+    && apt install -y netcat
+
+RUN pip install PyYAML
+RUN pip install pymongo
+RUN pip install cx_Oracle
+WORKDIR /opt/data
+
+ENV ORACLE_HOME=/opt/oracle
+ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$ORACLE_HOME
+ENV PATH="$ORACLE_HOME:$PATH"
+
+
+ENV PATH="/opt/mongo/bin:$PATH"
+# INSTALL INSTANTCLIENT AND DEPENDENCIES
+# RUN /aoscli/mongo_binaries/install-mongoclient.sh
+RUN /aoscli/oracle_binaries/install-instantclient.sh
+WORKDIR /aoscli
+ENTRYPOINT ["/bin/bash"]
+#ENTRYPOINT [ "python", "connect.py" ]
